@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    scroll-behavior: smooth;
+}
+body{
+background-color: black;
+}
+
+@media screen and(min-width:500px) {
+    body{ width: 420px;
+    }
+    
+}
+
+@media screen and(min-width:800px) {
+    body{ width: 720px;
+    }
+}
+li,a,button{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+    color: white;
+    text-decoration:none;
+    background-color: black;
+    
+
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 1%;
+    top: 0;
+    z-index: 1;
+    position: sticky;
+    height: 50px;
+    background-color: black;
+    
+
+}
+
+.logo{ cursor: pointer;}
+.nav_links{
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px
+}
+.nav_links{
+    transition: all 0.3s ease 0s;
+
+}
+.nav_links:hover{
+    color: aquamarine;
+}
+.logo{
+    border-radius: 1px;
+    height: 400x;
+    width: 110px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+section h1{
+    font-size: 3rem;
+    padding: 10px;
+    
+    
+}
+
+
+
+section#Home{
+    background:url(https://images.wallpaperscraft.com/image/single/city_skyscrapers_coast_135839_1920x1080.jpg);
+    
+}
+section#About{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:left;
+    text-align:center;
+    width: 100%;
+    height: 100vh;
+    padding:100px 1%;
+}
+
+section#Podcast{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:left;
+    text-align:center;
+    width: 100%;
+    height: 100vh;
+    padding:100px 1%;
+}
+.spotify{
+    width: 250px;
+    height: 105px;
+    align-items: center;
+    top: -20px;
+    position: relative;
+}
+section#Socials{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:left;
+    text-align:center;
+    width: 100%;
+    height: 100vh;
+    padding:100px 1%;}
+
+.instagram-media{
+    left: 700px;
+    bottom: 860px;
+    position: relative;
+}
+    
